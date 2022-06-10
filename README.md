@@ -56,13 +56,13 @@ For example, to edit a specific post, the API endpoint could be
 - Create a comment for a post
     POST /posts/:postId/comments
 - Edit a comment for a post
-    PATCH /posts/:postId/comments/:commentId
+    PATCH /comments/:commentId
 - Delete a comment for a post
-    DELETE /posts/:postId/comments/:commentId
+    DELETE /comments/:commentId
 - Add a like for a post
     POST /posts/:postId/likes
 - Remove a like for a post
-    DELETE /posts/:postId/likes/:likeId
+    DELETE /likes/:likeId
 - Get all the posts of a user
     GET /users/:userId/posts
 - Submit a search on posts
